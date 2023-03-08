@@ -1,11 +1,5 @@
 # Theory: Introduction To Truffle
 
-<style>
-p{
-    text-align: justify
-}
-</style>
-
 <details>
 <summary>Introduction</summary>
 Truffle is a popular development framework for Ethereum blockchain-based decentralized applications (dApps). It provides a suite of tools that simplifies the development process of smart contracts and dApps on Ethereum, allowing developers to focus on the core logic of their applications.
@@ -53,7 +47,42 @@ Truffle requires Ganache, a personal blockchain for Ethereum development, to be 
 
   ![Alt text](images/truffle-version.png)
 
+## Install Ganache
+
+---
+
+- Download and install ganache from https://trufflesuite.com/ganache/
+  ![Alt text](images/download-ganache.png)
+
+### Install on linux
+
+---
+
+Once Ganache appimage is download do following
+
+```
+chmod +x ganache-2.7.0-linux-x86_64.AppImage
+sudo mv ganache-2.7.0-linux-x86_64.AppImage /bin/ganache
+```
+
+![Alt text](images/install-ganache-linux.png)
+
+### Setup Ganache
+
+---
+
+Click on continue
+![Alt text](images/ganache-1.png)
+
+Click on Quickstart
+![Alt text](images/ganache-2.png)
+
+Accounts Dashboard
+![Alt text](images/ganache-3.png)
+
 ## Create a new Truffle project
+
+---
 
 - Open a terminal and create a new directory for your Truffle project and navigate to that directory
 
