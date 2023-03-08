@@ -43,7 +43,7 @@ Truffle requires Ganache, a personal blockchain for Ethereum development, to be 
   npm install -g truffle
   ```
 
-  ![npm install -g truffle](install-truffle.png)
+  ![npm install -g truffle](images/install-truffle.png)
 
 - You may receive a list of warnings during installation. To confirm that Truffle was installed correctly, run:
 
@@ -51,18 +51,22 @@ Truffle requires Ganache, a personal blockchain for Ethereum development, to be 
   truffle version
   ```
 
-  ![Alt text](truffle-version.png)
+  ![Alt text](images/truffle-version.png)
 
 ## Create a new Truffle project
 
 - Open a terminal and create a new directory for your Truffle project and navigate to that directory
 
-  ![Alt text](create-truflle-project-directory.png)
+  ![Alt text](images/create-truflle-project-directory.png)
 
 - Run Following command
+
   ```
   truffle init
   ```
-  ![Alt text](truffle-init.png)
+
+  ![Alt text](images/truffle-init.png)
+
   This will create a new Truffle project with the basic project structure.
-  ![Alt text](truffle-project-directory.png)
+
+  ![Alt text](images/truffle-project-directory.png)
